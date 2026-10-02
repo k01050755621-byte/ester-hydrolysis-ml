@@ -1,0 +1,74 @@
+{
+  "final_model": "Ensemble(RF+HistGBDT+XGB, 5 seeds)",
+  "q90_global": 15.24,
+  "q80_global": 10.38,
+  "coverage_test_global": 0.844,
+  "mondrian": {
+    "Al-Al": {
+      "n_cal": 30,
+      "q90": 15.8,
+      "q80": 9.15
+    },
+    "Al-Ar": {
+      "n_cal": 9,
+      "q90": 15.24,
+      "note": "样本不足，退全局 q90"
+    },
+    "Ar-Al": {
+      "n_cal": 52,
+      "q90": 11.11,
+      "q80": 9.07
+    },
+    "Ar-Ar": {
+      "n_cal": 32,
+      "q90": 16.6,
+      "q80": 12.15
+    }
+  },
+  "mondrian_coverage": {
+    "Al-Al": 0.909,
+    "Al-Ar": null,
+    "Ar-Al": 0.95,
+    "Ar-Ar": 0.778
+  },
+  "n_distinct_pred": 11984,
+  "n_CI_all_negative": 11,
+  "n_pareto": 6,
+  "n_halogen_free_strict": 2801,
+  "isomer_collapse": [
+    {
+      "模型": "base16",
+      "不同预测值数": 2456,
+      "塌缩比": 5.041
+    },
+    {
+      "模型": "v4",
+      "不同预测值数": 11984,
+      "塌缩比": 1.033
+    }
+  ],
+  "isomer_group_mean_distinct": {
+    "base": 1.0,
+    "v4": 6.523
+  },
+  "halogen_free_top10": [
+    "C6533",
+    "C12225",
+    "C1074",
+    "C3486",
+    "C4767",
+    "C6181",
+    "C5191",
+    "C2463",
+    "C6488",
+    "C2381"
+  ],
+  "pareto_members": [
+    "C6533",
+    "C5637",
+    "C1255",
+    "C6083",
+    "C12538",
+    "C12225"
+  ]
+}

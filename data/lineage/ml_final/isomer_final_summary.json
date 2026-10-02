@@ -1,0 +1,47 @@
+{
+  "n_groups": 1742,
+  "n_covered": 11404,
+  "mean_distinct_base": 1.0,
+  "mean_distinct_v6": 6.52,
+  "collapse": [
+    {
+      "模型": "base16",
+      "不同预测值数": 2367,
+      "塌缩比": 5.23
+    },
+    {
+      "模型": "v6",
+      "不同预测值数": 11983,
+      "塌缩比": 1.033
+    }
+  ],
+  "within_group_n": 80,
+  "within_group_rho_base": null,
+  "within_group_rho_v6": 0.79,
+  "within_group_median_rho_full": 0.9,
+  "within_group_strata": [
+    {
+      "层": "n=3",
+      "组数": 33,
+      "中位rho": 1.0,
+      "均值rho": 0.773,
+      "加权rho": 0.773
+    },
+    {
+      "层": "n=4-7",
+      "组数": 24,
+      "中位rho": 0.8,
+      "均值rho": 0.758,
+      "加权rho": 0.759
+    },
+    {
+      "层": "n>=8",
+      "组数": 23,
+      "中位rho": 0.881,
+      "均值rho": 0.847,
+      "加权rho": 0.872
+    }
+  ],
+  "label_file": "labels_final_v7.csv",
+  "pred_file": "vlib_predictions_v7.csv"
+}

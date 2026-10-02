@@ -1,0 +1,93 @@
+{
+  "base": 0.059751249849796295,
+  "mech": 0.23677852749824524,
+  "morgan": 0.6423167586326599,
+  "maccs": 0.06115351989865303,
+  "top20": [
+    {
+      "feature": "fp147",
+      "mean_abs_shap": 5.448389053344727
+    },
+    {
+      "feature": "n_alkAr",
+      "mean_abs_shap": 4.397562026977539
+    },
+    {
+      "feature": "fp823",
+      "mean_abs_shap": 1.2944364547729492
+    },
+    {
+      "feature": "mk109",
+      "mean_abs_shap": 0.8832912445068359
+    },
+    {
+      "feature": "fp1018",
+      "mean_abs_shap": 0.7215237617492676
+    },
+    {
+      "feature": "fp14",
+      "mean_abs_shap": 0.6407952904701233
+    },
+    {
+      "feature": "fp432",
+      "mean_abs_shap": 0.6246299147605896
+    },
+    {
+      "feature": "avg_alkoxy_deg",
+      "mean_abs_shap": 0.5195386409759521
+    },
+    {
+      "feature": "fp212",
+      "mean_abs_shap": 0.5060059428215027
+    },
+    {
+      "feature": "fp386",
+      "mean_abs_shap": 0.42752495408058167
+    },
+    {
+      "feature": "fp361",
+      "mean_abs_shap": 0.4212050139904022
+    },
+    {
+      "feature": "LogP",
+      "mean_abs_shap": 0.3953947126865387
+    },
+    {
+      "feature": "fp322",
+      "mean_abs_shap": 0.3548644781112671
+    },
+    {
+      "feature": "fp12",
+      "mean_abs_shap": 0.3154102861881256
+    },
+    {
+      "feature": "n_aliRing",
+      "mean_abs_shap": 0.3131432831287384
+    },
+    {
+      "feature": "分子量",
+      "mean_abs_shap": 0.3047448694705963
+    },
+    {
+      "feature": "芳环数",
+      "mean_abs_shap": 0.29005318880081177
+    },
+    {
+      "feature": "fp799",
+      "mean_abs_shap": 0.25810348987579346
+    },
+    {
+      "feature": "fp833",
+      "mean_abs_shap": 0.24997150897979736
+    },
+    {
+      "feature": "fp33",
+      "mean_abs_shap": 0.24917863309383392
+    }
+  ],
+  "linear_model": {
+    "MAE": 7.86,
+    "R2": 0.574,
+    "rho": 0.721
+  }
+}

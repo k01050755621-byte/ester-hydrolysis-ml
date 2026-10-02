@@ -1,0 +1,54 @@
+{
+  "q90_global": 14.53,
+  "coverage_test_global": 0.91,
+  "splits": [
+    {
+      "seed": 42,
+      "q90": 14.27,
+      "coverage_test": 0.896
+    },
+    {
+      "seed": 7,
+      "q90": 15.96,
+      "coverage_test": 0.957
+    },
+    {
+      "seed": 2024,
+      "q90": 13.37,
+      "coverage_test": 0.878
+    }
+  ],
+  "mondrian": {
+    "Al-Al": {
+      "n_cal": 60,
+      "n_test": 63,
+      "q90": 18.69,
+      "宽度_95CI": 37.37
+    },
+    "Al-Ar": {
+      "n_cal": 45,
+      "n_test": 61,
+      "q90": 16.42,
+      "宽度_95CI": 32.84
+    },
+    "Ar-Al": {
+      "n_cal": 54,
+      "n_test": 53,
+      "q90": 12.96,
+      "宽度_95CI": 25.93
+    },
+    "Ar-Ar": {
+      "n_cal": 203,
+      "n_test": 72,
+      "q90": 10.89,
+      "宽度_95CI": 21.79
+    }
+  },
+  "mondrian_coverage": {
+    "Al-Al": 0.968,
+    "Al-Ar": 0.836,
+    "Ar-Al": 0.887,
+    "Ar-Ar": 0.972
+  },
+  "label_file": "labels_final_v7.csv"
+}

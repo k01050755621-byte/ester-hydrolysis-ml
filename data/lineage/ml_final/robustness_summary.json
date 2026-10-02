@@ -1,0 +1,193 @@
+{
+  "ablation": [
+    {
+      "特征集": "base_only",
+      "n_features": 16,
+      "MAE": 9.93,
+      "MAE_std": 0.08,
+      "R2": 0.094,
+      "R2_std": 0.01,
+      "rho": 0.389,
+      "base_MAE": 11.89,
+      "n_distinct": 2456,
+      "collapse_ratio": 5.041
+    },
+    {
+      "特征集": "base+mech",
+      "n_features": 46,
+      "MAE": 7.88,
+      "MAE_std": 0.1,
+      "R2": 0.468,
+      "R2_std": 0.015,
+      "rho": 0.62,
+      "base_MAE": 11.89,
+      "n_distinct": 3087,
+      "collapse_ratio": 4.01
+    },
+    {
+      "特征集": "base+fp(v3口径)",
+      "n_features": 326,
+      "MAE": 7.93,
+      "MAE_std": 0.16,
+      "R2": 0.461,
+      "R2_std": 0.022,
+      "rho": 0.632,
+      "base_MAE": 11.89,
+      "n_distinct": 11927,
+      "collapse_ratio": 1.038
+    },
+    {
+      "特征集": "base+mech+fp",
+      "n_features": 356,
+      "MAE": 7.77,
+      "MAE_std": 0.09,
+      "R2": 0.481,
+      "R2_std": 0.016,
+      "rho": 0.64,
+      "base_MAE": 11.89,
+      "n_distinct": 11955,
+      "collapse_ratio": 1.036
+    },
+    {
+      "特征集": "base+mech+fp+maccs",
+      "n_features": 420,
+      "MAE": 7.76,
+      "MAE_std": 0.08,
+      "R2": 0.479,
+      "R2_std": 0.014,
+      "rho": 0.641,
+      "base_MAE": 11.89,
+      "n_distinct": 11992,
+      "collapse_ratio": 1.032
+    }
+  ],
+  "models": [
+    {
+      "模型": "XGBoost",
+      "MAE": 7.76,
+      "MAE_std": 0.08,
+      "R2": 0.479,
+      "R2_std": 0.014,
+      "rho": 0.641,
+      "base_MAE": 11.89
+    },
+    {
+      "模型": "RandomForest",
+      "MAE": 7.62,
+      "MAE_std": 0.09,
+      "R2": 0.502,
+      "R2_std": 0.01,
+      "rho": 0.658,
+      "base_MAE": 11.89
+    },
+    {
+      "模型": "ExtraTrees",
+      "MAE": 9.04,
+      "MAE_std": 0.53,
+      "R2": 0.295,
+      "R2_std": 0.066,
+      "rho": 0.575,
+      "base_MAE": 11.89
+    },
+    {
+      "模型": "GradBoost",
+      "MAE": 7.78,
+      "MAE_std": 0.11,
+      "R2": 0.476,
+      "R2_std": 0.016,
+      "rho": 0.639,
+      "base_MAE": 11.89
+    },
+    {
+      "模型": "HistGBDT",
+      "MAE": 7.69,
+      "MAE_std": 0.14,
+      "R2": 0.48,
+      "R2_std": 0.014,
+      "rho": 0.65,
+      "base_MAE": 11.89
+    },
+    {
+      "模型": "Ridge",
+      "MAE": 10.08,
+      "MAE_std": 0.34,
+      "R2": 0.18,
+      "R2_std": 0.063,
+      "rho": 0.563,
+      "base_MAE": 11.89
+    },
+    {
+      "模型": "kNN5",
+      "MAE": 10.76,
+      "MAE_std": 0.13,
+      "R2": -0.018,
+      "R2_std": 0.017,
+      "rho": 0.303,
+      "base_MAE": 11.89
+    },
+    {
+      "模型": "SVR",
+      "MAE": 11.75,
+      "MAE_std": 0.35,
+      "R2": -0.114,
+      "R2_std": 0.059,
+      "rho": -0.115,
+      "base_MAE": 11.89
+    },
+    {
+      "模型": "Ensemble(XGB+RF+ET)",
+      "MAE": 7.78,
+      "MAE_std": 0.23,
+      "R2": 0.479,
+      "R2_std": 0.022,
+      "rho": 0.647,
+      "base_MAE": 11.89
+    }
+  ],
+  "butina": [
+    {
+      "特征集": "base_only",
+      "MAE": 9.92,
+      "MAE_std": 0.11,
+      "R2": 0.082,
+      "R2_std": 0.017,
+      "rho": 0.401,
+      "base_MAE": 11.66
+    },
+    {
+      "特征集": "base+fp(v3口径)",
+      "MAE": 7.95,
+      "MAE_std": 0.16,
+      "R2": 0.446,
+      "R2_std": 0.022,
+      "rho": 0.615,
+      "base_MAE": 11.66
+    },
+    {
+      "特征集": "best",
+      "MAE": 7.92,
+      "MAE_std": 0.1,
+      "R2": 0.437,
+      "R2_std": 0.012,
+      "rho": 0.62,
+      "base_MAE": 11.66
+    }
+  ],
+  "yrandom": {
+    "真实标签_MAE": 7.76,
+    "y随机化_MAE_mean": 12.56,
+    "y随机化_MAE_std": 0.24,
+    "y随机化_MAE_list": [
+      12.55,
+      12.18,
+      12.56,
+      12.48,
+      12.59,
+      12.97,
+      12.41,
+      12.62,
+      12.3,
+      12.94
+    ]
+  }
+}

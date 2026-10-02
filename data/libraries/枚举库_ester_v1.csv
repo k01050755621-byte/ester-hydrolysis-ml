@@ -1,0 +1,10 @@
+编号,角色,名称,SMILES,动态键类型,文献来源DOI,备注
+C504,模型化合物,E(C09xC131),CCOC(=O)C1CCC2OC2C1,酯键,,枚举虚拟库v1_碎片重组
+C505,模型化合物,E(C09xC132),COC(=O)C1CCC2OC2C1,酯键,,枚举虚拟库v1_碎片重组
+C506,模型化合物,E(C09xC133),O=C(OCCO)C1CCC2OC2C1,酯键,,枚举虚拟库v1_碎片重组
+C507,模型化合物,E(C09xC134),O=C(OC1CCCCC1)C1CCC2OC2C1,酯键,,枚举虚拟库v1_碎片重组
+C508,模型化合物,E(C131xC09),CC(=O)OCC1CCC2OC2C1,酯键,,枚举虚拟库v1_碎片重组
+C509,模型化合物,E(C132xC09),O=C(OCC1CCC2OC2C1)c1ccccc1,酯键,,枚举虚拟库v1_碎片重组
+C510,模型化合物,E(C132xC131),CCOC(=O)c1ccccc1,酯键,,枚举虚拟库v1_碎片重组
+C511,模型化合物,E(C132xC133),O=C(OCCO)c1ccccc1,酯键,,枚举虚拟库v1_碎片重组
+C512,模型化合物,E(C132xC134),O=C(OC1CCCCC1)c1ccccc1,酯键,,枚举虚拟库v1_碎片重组

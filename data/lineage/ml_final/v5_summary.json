@@ -1,0 +1,63 @@
+{
+  "labels": 771,
+  "cv": {
+    "452": {
+      "n": 452,
+      "MAE": 7.59,
+      "R2": 0.5,
+      "rho": 0.639,
+      "base_MAE": 11.82,
+      "R2_std": 0.005
+    },
+    "772": {
+      "n": 771,
+      "MAE": 6.82,
+      "R2": 0.619,
+      "rho": 0.736,
+      "base_MAE": 13.24,
+      "R2_std": 0.006
+    }
+  },
+  "prospective_v4_on_AL4": {
+    "n": 319,
+    "Spearman": 0.792,
+    "p": 5.254323902219315e-70,
+    "MAE": 5.86,
+    "R2": 0.718,
+    "coverage_n": 120,
+    "coverage_MAE": 6.39,
+    "coverage_Spearman": 0.385,
+    "exploit_n": 99,
+    "exploit_MAE": 4.55,
+    "exploit_Spearman": 0.05,
+    "uncertain_n": 100,
+    "uncertain_MAE": 6.52,
+    "uncertain_Spearman": 0.789
+  },
+  "q90": 14.07,
+  "coverage_test": 0.828,
+  "n_distinct_pred": 11958,
+  "n_CI_all_negative": 50,
+  "pareto_members": [
+    "C6533",
+    "C5637",
+    "C1255",
+    "C6083",
+    "C12538",
+    "C5145",
+    "C5175",
+    "C12225"
+  ],
+  "halogen_free_top10": [
+    "C6533",
+    "C3486",
+    "C12225",
+    "C1074",
+    "C6181",
+    "C5029",
+    "C6153",
+    "C6939",
+    "C6488",
+    "C9405"
+  ]
+}

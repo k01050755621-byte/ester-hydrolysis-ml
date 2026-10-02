@@ -1,0 +1,2 @@
+编号,名称,水解_DFT_气相_kJmol,水解_DFT_PCM_kJmol,水解_xTB_kJmol_重算,n原子_parent,n原子_P1,n原子_P2,SMILES
+C1223,D(C312xC270xPh_Me3),6.5,,12.8,61,48,16,Cc1ccccc1OC(=O)CCCCCCCCC(=O)OC2CCCCC2

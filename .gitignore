@@ -1,0 +1,11 @@
+# regenerated large artifacts (see docs/REPRODUCING.md)
+feat_vlib*.csv
+*.png
+*.pdf
+__pycache__/
+*.pyc
+.DS_Store
+# DFT/xtb scratch
+*.xyz.tmp
+gsingularity/
+PEDRA.OUT

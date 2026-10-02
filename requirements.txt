@@ -1,0 +1,8 @@
+rdkit==2026.3.5
+numpy>=2.0
+pandas>=2.2
+scikit-learn>=1.5
+xgboost>=2.1
+scipy>=1.14
+matplotlib>=3.9
+openpyxl>=3.1
