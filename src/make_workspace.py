@@ -25,7 +25,7 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 
 # absolute-path constants written during development -> rewritten on copy
-OLD_PREFIX = "/Users/Zhuanz/polywork"
+OLD_PREFIX = "/path/to/polywork"
 OLD_EXPAND = "os.path.expanduser('~/polywork')"
 
 FLAT_ROOT = [  # -> workspace root

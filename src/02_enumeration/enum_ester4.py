@@ -21,7 +21,7 @@ from rdkit.Chem import Descriptors
 from rdkit import RDLogger
 RDLogger.DisableLog("rdApp.*")
 
-base = "/Users/Zhuanz/polywork/"
+base = "/path/to/polywork/"
 ESTER = Chem.MolFromSmarts("[CX3](=O)[OX2H0]")
 TARGET = 87620          # 12,380 + 87,620 = 100,000
 MAX_ATTEMPTS = 2_000_000

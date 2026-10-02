@@ -3,7 +3,7 @@
 import json, sys
 import pandas as pd
 
-P = "/Users/Zhuanz/polywork"
+P = "/path/to/polywork"
 ML = f"{P}/fix_20260928/ml_final"
 
 errors = []

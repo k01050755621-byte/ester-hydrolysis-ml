@@ -9,3 +9,5 @@ __pycache__/
 *.xyz.tmp
 gsingularity/
 PEDRA.OUT
+.!*
+.!*
