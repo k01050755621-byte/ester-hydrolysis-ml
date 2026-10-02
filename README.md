@@ -107,7 +107,7 @@ All labels, predictions, and screening outputs are in `data/` (total ~37 MB). Fe
 
 A preprint will be available on ChemRxiv/arXiv in January 2027. Until then, please cite this repository:
 
-> Ziyu Xu (Shandong University), *ester-hydrolysis-ml*, 2026. https://github.com/<account>/ester-hydrolysis-ml
+> Ziyu Xu (Shandong University), *ester-hydrolysis-ml*, 2026. https://github.com/k01050755621-byte/ester-hydrolysis-ml
 
 ## License
 
